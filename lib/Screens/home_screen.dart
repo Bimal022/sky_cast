@@ -1,12 +1,7 @@
 // ignore_for_file: prefer_const_constructors
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sky_cast/Networking/weather_service.dart';
 import '../Networking/location_service.dart';
-import 'package:geolocator/geolocator.dart';
-import '../Networking/location_service.dart';
-
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 

@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:sky_cast/Screens/home_screen.dart';
+import 'package:sky_cast/Screens/main_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,6 +12,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return HomeScreen();
+    return MainScreen();
   }
 }
