@@ -24,6 +24,9 @@
 *.xaml    text
 *.xml     text
 
+# Set Dart as the language for these file types
+*.dart linguist-language=Dart
+
 # Binary files
 *.bmp     binary
 *.jpeg    binary
@@ -32,8 +35,5 @@
 *.png     binary
 *.sdf     binary
 
-*.java linguist-language=Dart
-*.kt linguist-language=Dart
-*.swift linguist-language=Dart
-*.m linguist-language=Dart
-*.h linguist-language=Dart
+# Remove CMake association
+CMakeLists.txt -linguist-language
